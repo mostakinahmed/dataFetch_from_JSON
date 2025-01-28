@@ -13,6 +13,7 @@ function productCart(product) {
     root.innerHTML += htmlCode(element);
   });
 
+  // console.log(htmlCode(product));
   function htmlCode(info) {
     const { category, id, name, price, rating, stock } = info;
 
